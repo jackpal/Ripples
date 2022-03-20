@@ -11,6 +11,11 @@
 		36576BE827E7C27A00F0CCE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36576BE727E7C27A00F0CCE8 /* ContentView.swift */; };
 		36576BEA27E7C27B00F0CCE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36576BE927E7C27B00F0CCE8 /* Assets.xcassets */; };
 		36576BED27E7C27B00F0CCE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36576BEC27E7C27B00F0CCE8 /* Preview Assets.xcassets */; };
+		36576BFA27E7C4C700F0CCE8 /* Ripple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36576BF527E7C4C700F0CCE8 /* Ripple.swift */; };
+		36576BFB27E7C4C700F0CCE8 /* NFingerTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36576BF627E7C4C700F0CCE8 /* NFingerTapView.swift */; };
+		36576BFC27E7C4C700F0CCE8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36576BF727E7C4C700F0CCE8 /* Model.swift */; };
+		36576BFD27E7C4C700F0CCE8 /* NFingerGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36576BF827E7C4C700F0CCE8 /* NFingerGestureRecognizer.swift */; };
+		36576BFE27E7C4C700F0CCE8 /* Pond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36576BF927E7C4C700F0CCE8 /* Pond.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		36576BEC27E7C27B00F0CCE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		36576BF327E7C3E100F0CCE8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		36576BF427E7C43300F0CCE8 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		36576BF527E7C4C700F0CCE8 /* Ripple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ripple.swift; sourceTree = "<group>"; };
+		36576BF627E7C4C700F0CCE8 /* NFingerTapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFingerTapView.swift; sourceTree = "<group>"; };
+		36576BF727E7C4C700F0CCE8 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		36576BF827E7C4C700F0CCE8 /* NFingerGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFingerGestureRecognizer.swift; sourceTree = "<group>"; };
+		36576BF927E7C4C700F0CCE8 /* Pond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pond.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +65,15 @@
 		36576BE427E7C27A00F0CCE8 /* Ripples */ = {
 			isa = PBXGroup;
 			children = (
-				36576BE527E7C27A00F0CCE8 /* RipplesApp.swift */,
-				36576BE727E7C27A00F0CCE8 /* ContentView.swift */,
 				36576BE927E7C27B00F0CCE8 /* Assets.xcassets */,
+				36576BE727E7C27A00F0CCE8 /* ContentView.swift */,
+				36576BF727E7C4C700F0CCE8 /* Model.swift */,
+				36576BF827E7C4C700F0CCE8 /* NFingerGestureRecognizer.swift */,
+				36576BF627E7C4C700F0CCE8 /* NFingerTapView.swift */,
+				36576BF927E7C4C700F0CCE8 /* Pond.swift */,
 				36576BEB27E7C27B00F0CCE8 /* Preview Content */,
+				36576BF527E7C4C700F0CCE8 /* Ripple.swift */,
+				36576BE527E7C27A00F0CCE8 /* RipplesApp.swift */,
 			);
 			path = Ripples;
 			sourceTree = "<group>";
@@ -141,8 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36576BFC27E7C4C700F0CCE8 /* Model.swift in Sources */,
+				36576BFB27E7C4C700F0CCE8 /* NFingerTapView.swift in Sources */,
+				36576BFE27E7C4C700F0CCE8 /* Pond.swift in Sources */,
+				36576BFA27E7C4C700F0CCE8 /* Ripple.swift in Sources */,
 				36576BE827E7C27A00F0CCE8 /* ContentView.swift in Sources */,
 				36576BE627E7C27A00F0CCE8 /* RipplesApp.swift in Sources */,
+				36576BFD27E7C4C700F0CCE8 /* NFingerGestureRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
