@@ -16,6 +16,7 @@
 		36576BFC27E7C4C700F0CCE8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36576BF727E7C4C700F0CCE8 /* Model.swift */; };
 		36576BFD27E7C4C700F0CCE8 /* NFingerGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36576BF827E7C4C700F0CCE8 /* NFingerGestureRecognizer.swift */; };
 		36576BFE27E7C4C700F0CCE8 /* Pond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36576BF927E7C4C700F0CCE8 /* Pond.swift */; };
+		36576C0227E7CD5C00F0CCE8 /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36576C0127E7CD5C00F0CCE8 /* Metrics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		36576BF727E7C4C700F0CCE8 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		36576BF827E7C4C700F0CCE8 /* NFingerGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFingerGestureRecognizer.swift; sourceTree = "<group>"; };
 		36576BF927E7C4C700F0CCE8 /* Pond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pond.swift; sourceTree = "<group>"; };
+		36576C0127E7CD5C00F0CCE8 /* Metrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metrics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,14 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				36576BE927E7C27B00F0CCE8 /* Assets.xcassets */,
-				36576BE727E7C27A00F0CCE8 /* ContentView.swift */,
-				36576BF727E7C4C700F0CCE8 /* Model.swift */,
-				36576BF827E7C4C700F0CCE8 /* NFingerGestureRecognizer.swift */,
-				36576BF627E7C4C700F0CCE8 /* NFingerTapView.swift */,
-				36576BF927E7C4C700F0CCE8 /* Pond.swift */,
+				36576BFF27E7CC3200F0CCE8 /* Models */,
 				36576BEB27E7C27B00F0CCE8 /* Preview Content */,
-				36576BF527E7C4C700F0CCE8 /* Ripple.swift */,
 				36576BE527E7C27A00F0CCE8 /* RipplesApp.swift */,
+				36576C0027E7CC4800F0CCE8 /* Views */,
 			);
 			path = Ripples;
 			sourceTree = "<group>";
@@ -84,6 +82,27 @@
 				36576BEC27E7C27B00F0CCE8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		36576BFF27E7CC3200F0CCE8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				36576BF727E7C4C700F0CCE8 /* Model.swift */,
+				36576BF527E7C4C700F0CCE8 /* Ripple.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		36576C0027E7CC4800F0CCE8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36576BE727E7C27A00F0CCE8 /* ContentView.swift */,
+				36576C0127E7CD5C00F0CCE8 /* Metrics.swift */,
+				36576BF827E7C4C700F0CCE8 /* NFingerGestureRecognizer.swift */,
+				36576BF627E7C4C700F0CCE8 /* NFingerTapView.swift */,
+				36576BF927E7C4C700F0CCE8 /* Pond.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +182,7 @@
 				36576BE827E7C27A00F0CCE8 /* ContentView.swift in Sources */,
 				36576BE627E7C27A00F0CCE8 /* RipplesApp.swift in Sources */,
 				36576BFD27E7C4C700F0CCE8 /* NFingerGestureRecognizer.swift in Sources */,
+				36576C0227E7CD5C00F0CCE8 /* Metrics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
