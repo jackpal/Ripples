@@ -1,6 +1,8 @@
-# Ripples
+# Calming Ripples
 
 Use your fingers to create soothing ripples with this SwiftUI app.
+
+[Available for iOS, iPadOS and macOS](https://apps.apple.com/us/app/calming-ripples/id1615302570)
 
 Study the code to learn how to:
 
